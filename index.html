@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dadscreen — Privacy Policy</title>
+<meta name="description" content="dadscreen has no servers, no accounts and no analytics. Nothing it records about you leaves your iPhone.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  :root{
+    --ground:#100E0B; --surface:#181512; --ink:#F2EFEA; --muted:#9D958D; --rule:#39332F;
+    --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+    --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+    color-scheme:dark;
+  }
+  @media (prefers-color-scheme:light){
+    :root{--ground:#FBF9F6;--surface:#F3EFE9;--ink:#19150F;--muted:#6A625A;--rule:#DDD5CA;color-scheme:light}
+  }
+  *{box-sizing:border-box}
+  body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:18px;
+    line-height:1.62;margin:0;padding:56px 20px 72px}
+  main{max-width:36rem;margin:0 auto}
+  .eyebrow{font-family:var(--display);font-weight:600;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--muted);margin:0 0 18px}
+  h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,7vw,40px);line-height:1.12;
+    letter-spacing:-.015em;margin:0 0 14px}
+  .dateline{font-family:var(--display);font-weight:500;font-size:13px;color:var(--muted);margin:0 0 40px}
+  h2{font-family:var(--display);font-weight:600;font-size:19px;line-height:1.3;margin:44px 0 12px;
+    padding-top:22px;border-top:1px solid var(--rule)}
+  p{margin:0 0 16px} p:last-child{margin-bottom:0}
+  ul{margin:0 0 16px;padding-left:1.15em} li{margin-bottom:9px}
+  strong{font-weight:600}
+  .lede{background:var(--surface);border:1px solid var(--rule);border-radius:3px;padding:22px 24px;margin:0 0 8px}
+  .lede p{margin-bottom:12px} .lede p:last-child{margin-bottom:0}
+  .lede .headline{font-family:var(--display);font-weight:600;font-size:17px;line-height:1.4}
+  .note{font-size:16px;color:var(--muted)}
+  footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--rule);
+    font-family:var(--display);font-weight:500;font-size:13px;color:var(--muted)}
+  footer p{margin-bottom:6px}
+  a{color:var(--ink);text-underline-offset:2px}
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">dadscreen</p>
+  <h1>Privacy Policy</h1>
+  <p class="dateline">Effective 16 November 2026</p>
+
+  <div class="lede">
+    <p class="headline">dadscreen has no servers, no accounts, and no analytics. Nothing it records about you leaves your iPhone.</p>
+    <p class="note">That is not a promise about how carefully data is handled somewhere else. There is no somewhere else. The app makes no network requests of its own, so there is no place for your information to go.</p>
+  </div>
+
+  <h2>What the app records, and where it stays</h2>
+  <p>dadscreen keeps a small amount of information on your device so it can do its job:</p>
+  <ul>
+    <li><strong>Which apps you chose to shield</strong>, and the times of day you chose to shield them.</li>
+    <li><strong>A local activity log</strong> &mdash; when a shield appeared, which button you pressed, how long an unlock lasted, and whether you opened the day's page.</li>
+    <li><strong>Your ratings</strong> of the daily readings, and any optional note you type alongside one.</li>
+  </ul>
+  <p>All of it is stored in a private container on your iPhone, shared only between dadscreen and its own Screen Time extensions. It is covered by your device's encryption and by iOS app sandboxing. Deleting the app deletes all of it.</p>
+
+  <h2>The app cannot see which apps you picked</h2>
+  <p>This is worth stating precisely, because it is a property of Apple's system rather than a policy we adopted. When you choose apps to shield, iOS hands dadscreen an opaque token for each one &mdash; not a name, not a bundle identifier, not an icon. The app can ask iOS to shield that token. It cannot read what the token refers to.</p>
+  <p>So dadscreen does not know that you blocked Instagram. It knows that you blocked something, and iOS handles the rest.</p>
+
+  <h2>Apple's Screen Time</h2>
+  <p>Shielding is performed by Apple's Screen Time framework (Family Controls, Device Activity and Managed Settings). The app asks for your authorization the first time you use it, and that authorization applies to your own device only.</p>
+  <p>Apple's terms for this framework require that Screen Time data stay on the device. dadscreen complies with that, and the design above goes further than the requirement.</p>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>No account, sign-up, email address or password.</li>
+    <li>No advertising, advertising identifiers, or tracking across apps or websites.</li>
+    <li>No analytics, attribution or behavioural-measurement SDKs of any kind.</li>
+    <li>No selling, renting or sharing of personal information. There is none held to sell.</li>
+    <li>No contacts, photos, location, microphone or camera access. The app does not request them.</li>
+  </ul>
+
+  <h2>Notifications</h2>
+  <p>If you allow notifications, dadscreen sends the morning reading and occasional reminders. These are composed and scheduled on your device by the app itself. They are not sent through a push server, and their contents are not transmitted anywhere.</p>
+
+  <h2>If you send us a log</h2>
+  <p>The app has a button that copies your activity log and ratings to your clipboard, so you can send them to us if you want to report a problem or give feedback. That only ever happens because you chose it: nothing is transmitted automatically, and the app cannot send it on your behalf.</p>
+  <p>If you do send a log, we will use it to investigate what you asked us about, and we will delete it when that is finished. Please read what you are sending first &mdash; any notes you typed will be in it.</p>
+
+  <h2>Beta testing</h2>
+  <p>While dadscreen is distributed through Apple's TestFlight, Apple collects installation and crash information and makes some of it available to us. That is Apple's process, governed by Apple's privacy policy and by the terms you accepted in TestFlight, and it is separate from anything described above. We receive crash reports; we do not receive your activity log, your ratings or your app selections.</p>
+
+  <h2>Children</h2>
+  <p>dadscreen is not a parental-control app and is not designed to monitor anyone else. It shields the apps on the device of the person using it, at that person's own request. It is intended for adults and is not directed at children.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Revoke Screen Time access at any time in iOS Settings; shielding stops.</li>
+    <li>Turn notifications off at any time in iOS Settings.</li>
+    <li>Clear the activity log from inside the app.</li>
+    <li>Delete the app to remove everything it has stored.</li>
+  </ul>
+  <p>Because no personal information is held anywhere but your own device, there is nothing for us to export, correct or delete on request &mdash; and no way for us to do so even if you asked.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the effective date above changes with it, and a material change will be noted in the app's release notes. The version of this page you are reading applies to the current release.</p>
+
+  <footer>
+    <p>Questions about this policy: <span id="contact">CONTACT_EMAIL_PENDING</span></p>
+    <p>dadscreen is an independent app built by one person.</p>
+  </footer>
+</main>
+</body>
+</html>
